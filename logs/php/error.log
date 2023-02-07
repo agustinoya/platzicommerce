@@ -1,0 +1,36 @@
+[06-Feb-2023 20:11:13 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "plz_theme_supports" not found or invalid function name in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-config.php(93): require_once('C:\\Users\\Agusti...')
+#4 C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-load.php(50): require_once('C:\\Users\\Agusti...')
+#5 C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Agusti...')
+#6 C:\Users\Agustin\Local Sites\platzicommerce\app\public\index.php(17): require('C:\\Users\\Agusti...')
+#7 {main}
+  thrown in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-includes\class-wp-hook.php on line 308
+[06-Feb-2023 20:11:13 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "plz_theme_supports" not found or invalid function name in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-settings.php(595): do_action('after_setup_the...')
+#3 C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-config.php(93): require_once('C:\\Users\\Agusti...')
+#4 C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-load.php(50): require_once('C:\\Users\\Agusti...')
+#5 C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-blog-header.php(13): require_once('C:\\Users\\Agusti...')
+#6 C:\Users\Agustin\Local Sites\platzicommerce\app\public\index.php(17): require('C:\\Users\\Agusti...')
+#7 {main}
+  thrown in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-includes\class-wp-hook.php on line 308
+[06-Feb-2023 20:19:11 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-includes\class-wp-customize-widgets.php on line 900
+[06-Feb-2023 20:30:36 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-includes\class-wp-customize-widgets.php on line 900
+[06-Feb-2023 20:32:27 UTC] PHP Parse error:  syntax error, unexpected identifier "px", expecting ")" in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-content\themes\yardsales\functions.php on line 28
+[06-Feb-2023 20:32:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 372
+[06-Feb-2023 20:32:27 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 373
+[06-Feb-2023 20:32:28 UTC] PHP Parse error:  syntax error, unexpected identifier "px", expecting ")" in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-content\themes\yardsales\functions.php on line 28
+[06-Feb-2023 20:32:29 UTC] PHP Parse error:  syntax error, unexpected identifier "px", expecting ")" in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-content\themes\yardsales\functions.php on line 28
+[06-Feb-2023 20:32:29 UTC] PHP Parse error:  syntax error, unexpected identifier "px", expecting ")" in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-content\themes\yardsales\functions.php on line 28
+[06-Feb-2023 20:32:38 UTC] PHP Parse error:  syntax error, unexpected identifier "px", expecting ")" in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-content\themes\yardsales\functions.php on line 28
+[06-Feb-2023 20:32:41 UTC] PHP Parse error:  syntax error, unexpected identifier "px", expecting ")" in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-content\themes\yardsales\functions.php on line 28
+[06-Feb-2023 20:32:41 UTC] PHP Parse error:  syntax error, unexpected identifier "px", expecting ")" in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-content\themes\yardsales\functions.php on line 28
+[06-Feb-2023 20:32:43 UTC] PHP Parse error:  syntax error, unexpected identifier "px", expecting ")" in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-content\themes\yardsales\functions.php on line 28
+[06-Feb-2023 20:32:43 UTC] PHP Parse error:  syntax error, unexpected identifier "px", expecting ")" in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-content\themes\yardsales\functions.php on line 28
+[06-Feb-2023 20:42:11 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Agustin\Local Sites\platzicommerce\app\public\wp-includes\class-wp-customize-widgets.php on line 900
